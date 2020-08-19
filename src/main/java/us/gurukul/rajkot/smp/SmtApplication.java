@@ -1,4 +1,4 @@
-package us.gurukul.rajkot.smt;
+package us.gurukul.rajkot.smp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
