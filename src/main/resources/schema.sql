@@ -12,14 +12,14 @@ CREATE TABLE school (
 
 DROP TABLE IF EXISTS role;
 CREATE TABLE role (
-	id 				INT 			PRIMARY KEY,
+	id 				INT  AUTO_INCREMENT	PRIMARY KEY,
 	name 			VARCHAR2(30)	NOT NULL,
 	description 	VARCHAR2(50)
 );
 
-DROP TABLE IF EXISTS tempuser;
-CREATE TABLE tempuser (
-	id 				INT 			PRIMARY KEY,
+DROP TABLE IF EXISTS user;
+CREATE TABLE user (
+	id 				INT  AUTO_INCREMENT	PRIMARY KEY,
 	first_name 		VARCHAR(30)		NOT NULL,
 	middle_name 	VARCHAR(30),
 	last_name 		VARCHAR(30)		NOT NULL,
