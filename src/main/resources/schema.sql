@@ -5,7 +5,7 @@ CREATE TABLE school (
 	address_1 		VARCHAR2(50),
 	address_2 		VARCHAR2(50),
 	city 			VARCHAR2(50),
-	state_code		VARCHAR2(2),
+	state		    VARCHAR2(2),
 	zip 			INT(5),
 	is_active 		BOOLEAN			DEFAULT TRUE
 );
